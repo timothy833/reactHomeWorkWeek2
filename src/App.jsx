@@ -65,7 +65,7 @@ function App() {
 
   useEffect(()=>{
     if(isToken){
-      console.log(isToken);
+      // console.log(isToken);
       axios.defaults.headers.common['Authorization'] = isToken;
       getProducts();
     }
